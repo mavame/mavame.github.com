@@ -1,0 +1,21 @@
+{
+  "name": "mavame.github.com",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mavame/mavame.github.com",
+  "authors": [
+    "mavame <mvanmeter1@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1",
+    "fontawesome": "~4.2.0"
+  }
+}
