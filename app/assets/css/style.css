@@ -977,7 +977,7 @@ hr {
   clear: both;
   margin-bottom: 24px;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 12px;
   height: 1px;
 }
@@ -1610,7 +1610,7 @@ section + section {
 }
 
 hr {
-  border-color: #ccc;
+  border-color: #ddd;
 }
 
 h2 {
@@ -3178,9 +3178,11 @@ img {
   color: inherit;
 }
 
-.site-title + .site-lede {
-  margin-bottom: 16px;
-  font-size: 24px;
+.site-lede {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .portfolio .portfolio-title {
