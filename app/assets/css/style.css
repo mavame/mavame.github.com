@@ -1155,8 +1155,6 @@ a [class*=" icon-"], a [class^=icon-] {
 }
 
 .site-header {
-  background: #1b2032;
-  color: #fff;
   text-align: center;
 }
 
@@ -3174,7 +3172,15 @@ img {
 }
 
 .site-title {
+  padding-top: 0;
+  font-size: 40px;
   font-weight: 700;
+  color: inherit;
+}
+
+.site-title + .site-lede {
+  margin-bottom: 16px;
+  font-size: 24px;
 }
 
 .portfolio .portfolio-title {
@@ -3188,6 +3194,31 @@ img {
 
 .text--medium {
   font-weight: 600;
+}
+
+#avatar {
+  width: 90px;
+  margin: 20px 0;
+  border-radius: 50%;
+}
+
+.local {
+  color: #da4453;
+}
+
+.fa-map-marker {
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  margin-left: 5px;
+  margin-right: 1px;
+}
+
+.site-header {
+  padding-bottom: 0;
+}
+
+.site-header + .wrapper {
+  padding-top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
