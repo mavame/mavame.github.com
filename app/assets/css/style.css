@@ -3185,6 +3185,10 @@ img {
   text-align: center;
 }
 
+.red {
+  color: #da4453;
+}
+
 .portfolio .portfolio-title {
   font-size: 1.5rem;
 }
@@ -3202,10 +3206,6 @@ img {
   width: 90px;
   margin: 20px 0;
   border-radius: 50%;
-}
-
-.local {
-  color: #da4453;
 }
 
 .fa-map-marker {
