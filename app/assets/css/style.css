@@ -1056,6 +1056,7 @@ table tbody tr:nth-child(odd) {
   cursor: pointer;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .button:focus, .button:hover {
@@ -1138,16 +1139,8 @@ address, blockquote, details, dl, fieldset, figcaption, figure, h1, h2, h3, h4, 
 }
 
 a {
-  color: #da4453;
-  -webkit-transition: background .3s ease,color .3s ease;
-  -moz-transition: background .3s ease,color .3s ease;
-  -o-transition: background .3s ease,color .3s ease;
-  transition: background .3s ease,color .3s ease;
-}
-
-a:active, a:focus, a:hover {
   text-decoration: underline;
-  color: #000;
+  color: inherit;
 }
 
 a [class*=" icon-"], a [class^=icon-] {
@@ -3180,7 +3173,7 @@ img {
 
 .site-lede {
   margin-bottom: 8px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
@@ -3203,9 +3196,13 @@ img {
 }
 
 #avatar {
-  width: 90px;
+  width: 150px;
   margin: 20px 0;
   border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.3s;
+  position: relative;
 }
 
 .fa-map-marker {
@@ -3217,6 +3214,18 @@ img {
 
 .site-header {
   padding-bottom: 0;
+}
+
+.site-header a {
+  color: inherit;
+}
+
+.site-header li {
+  margin: 0 6px;
+}
+
+.site-header li:last-child:after {
+  content:'';
 }
 
 .site-header + .wrapper {
