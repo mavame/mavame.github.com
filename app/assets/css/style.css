@@ -3210,10 +3210,9 @@ img {
 }
 
 #avatar:hover {
-  border-width: 6px;
-  outline-width: 4px;
-  outline-color: #333;
-  box-shadow: none;
+  border-width: 3px;
+  outline-color: #3e3e3e;
+  /*box-shadow: none;*/
 }
 
 .fa-map-marker {
