@@ -3174,7 +3174,7 @@ img {
 .site-lede {
   margin-bottom: 8px;
   font-size: 24px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: center;
 }
 
@@ -3198,11 +3198,22 @@ img {
 #avatar {
   width: 150px;
   margin: 20px 0;
-  border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  border: 0px solid #fff;
+  outline: 3px solid #fff;
+  box-shadow: 0 0 10px #333;
+}
+
+#avatar:hover {
+  border-width: 6px;
+  outline-width: 4px;
+  outline-color: #333;
+  box-shadow: none;
 }
 
 .fa-map-marker {
