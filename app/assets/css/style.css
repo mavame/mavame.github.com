@@ -3200,19 +3200,10 @@ img {
   margin: 20px 0;
   display: inline-block;
   vertical-align: middle;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
   position: relative;
-  border: 0px solid #fff;
-  outline: 3px solid #fff;
-  box-shadow: 0 0 10px #333;
-}
-
-#avatar:hover {
-  border-width: 3px;
-  outline-color: #3e3e3e;
-  /*box-shadow: none;*/
+  box-shadow: 0 0 10px #ddd;
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
 
 .fa-map-marker {
