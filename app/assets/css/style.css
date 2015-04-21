@@ -1287,7 +1287,8 @@ a [class*=" icon-"], a [class^=icon-] {
 }
 
 .social-links a {
-  padding: 0 12px;
+  padding: 0 6px;
+  text-decoration: none;
 }
 
 .social-links a:focus, .social-links a:hover {
