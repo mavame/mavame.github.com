@@ -1286,6 +1286,10 @@ a [class*=" icon-"], a [class^=icon-] {
   font-size: 1.875rem;
 }
 
+header .social-links {
+  margin-bottom: 6px;
+}
+
 .social-links a {
   padding: 0 6px;
   text-decoration: none;
