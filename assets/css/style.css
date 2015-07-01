@@ -3205,7 +3205,7 @@ img {
   margin: 20px 0;
   display: inline-block;
   vertical-align: middle;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .fa-map-marker {
